@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Route to Karaportti 2</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    #map { height: 500px; }
+    body { font-family: Arial, sans-serif; }
+  </style>
+</head>
+<body>
+  <h1>Route to Karaportti 2</h1>
+  <form id="route-form">
+    <label for="address">Enter your starting address:</label>
+    <input id="address" type="text" placeholder="e.g., Otaniemi, Espoo" required>
+    <button type="submit">Show Route</button>
+  </form>
+
+  <div id="map"></div>
+  <div id="route-details"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="task_7.js"></script>
+</body>
+</html>
